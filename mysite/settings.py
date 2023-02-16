@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 
 # Build-in frameworks
 INSTALLED_APPS = [
+    'django',
     'polls.apps.PollsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -40,9 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    
-    'rest_framework',
-    'agenda.apps.AgendaConfig',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
